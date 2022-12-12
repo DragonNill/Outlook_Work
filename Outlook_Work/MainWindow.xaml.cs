@@ -33,6 +33,7 @@ namespace Outlook_Work
 
         private void enterButton_Click(object sender, RoutedEventArgs e)
         {
+            MessageBox.Show("hello");
             if(showPasswordcheckBox.IsChecked != true)
             {
                 passwordTextBox.Text = passwordPasswordBox.Password;
